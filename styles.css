@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: auto; */
+    width: 100%;
+}
+.topImage img {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+
+
+  }
+  .topText {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .logo img{
+    width: 30px;
+    height: 30px;
+  }
+  #btn{
+      background-color: white;
+      width: 30px;
+      height: 20px;
+      border-radius: 50px ;
+      padding-bottom: 40px;
+      margin-top: 40%;
+      
+  }
+
