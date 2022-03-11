@@ -44,12 +44,12 @@
     padding: 30px;
     
 }
+/* The services Image */
 
 .services img {
     width: 100%;
     height: 300px;
     background-size: cover;
-
 
   }
   .servicesText{
@@ -62,3 +62,18 @@
     top: -40vh;
     
   }
+
+  /* the what we do section  */
+  .icons {
+    display: flex;
+    place-content: center;
+    justify-content: space-around;
+    margin-top: -7%;
+    
+  }
+  .header{
+    text-align: center;
+    padding: 32px;
+    margin-top: -15%;
+  }
+  
