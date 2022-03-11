@@ -36,3 +36,11 @@
       
   }
 
+  /* <!-- The About us Section */
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    
+}
