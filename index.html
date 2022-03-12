@@ -41,9 +41,9 @@ rel="stylesheet"
                     
                     <h1>WELCOME</h1>
                     <P>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS</P>
-
-                   
-                        <button id="btn">.</button>
+                    <div class="mouseImage">
+                      <img src="images/mouse_click.png" alt="">
+                    </div>
                     
                 </div>
 
@@ -86,17 +86,22 @@ rel="stylesheet"
         <div class="row">
             <div class="header">WHAT WE DO</div>
             <div class="icons">
-                  <div class="icon1">
+                  <div class="icon1 col-md-12 col-lg-4 col-sm-12">
                     <img src="./images/Dilanisicons1.png">
                     <p>DESIGNS</p>
+                    <!-- <p class="text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, eligendi dignissimos, libero quos ipsam quibusdam pariatur quod quam repudiandae expedita totam unde dolorum quae atque iste ab sapiente, provident eaque!</p> -->
                   </div>
-                  <div class="icon2">
+                  <div class="icon2 col-md-12 col-sm-12">
                     <img src="./images/Dilanisicon2.png">
                     <p>DEVELOPMENT</p>
+                    <!-- <p class="text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, eligendi dignissimos, libero quos ipsam quibusdam pariatur quod quam repudiandae expedita totam unde dolorum quae atque iste ab sapiente, provident eaque!</p> -->
+
                   </div>
-                  <div class="icon3">
+                  <div class="icon3 col-md-12 col-sm-12">
                     <img src="./images/Dilanisicon3.png">
                     <p>PRODUCT MANAGEMENT</p>
+                    <!-- <p class="text3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, eligendi dignissimos, libero quos ipsam quibusdam pariatur quod quam repudiandae expedita totam unde dolorum quae atque iste ab sapiente, provident eaque!</p> -->
+
                   </div>
             </div>
 
@@ -105,28 +110,32 @@ rel="stylesheet"
 
           <!-- the portfolio -->
           
-          <div class="row myImages" >
-            <div class="headerPort">PORTFOLIO</div>
-            <div class="myImages"> 
-              <div class="float-right1">
-                <img src="./images/Dilanis7.jpg">
-                <img src="./images/Dilanis6.jpg"/>
-                <img src="./images/Dilanis4.jpg"/>
-                <img src="./images/Dilanis5.jpg"/>
-              </div>
-            
-              <div class="float-right2">
+          <div class="row">
+            <div class="column">
+              <div class="headerPort">PORTFOLIO</div>
+              <div class="myImages"> 
+                <div class="float-right1">
+                  <img src="./images/Dilanis7.jpg">
+                  <img src="./images/Dilanis6.jpg"/>
+                  <img src="./images/Dilanis4.jpg"/>
+                  <img src="./images/Dilanis5.jpg"/>
+                </div>
               
-                <img src="./images/Dilanis8.jpg">
-                <img src="./images/Dilanis9.jpg"/>
-                <img src="./images/Dilanis10.jpg"/>
-                <img src="./images/Dilanis5.jpg"/>
-              </div>
-          </div> 
+                <div class="float-right2">
+                
+                  <img src="./images/Dilanis8.jpg">
+                  <img src="./images/Dilanis9.jpg"/>
+                  <img src="./images/Dilanis10.jpg"/>
+                  <img src="./images/Dilanis5.jpg"/>
+                </div>
+              </div> 
+            </div>
+
+          </div>
 
             
 
-        </div>
+        
           
 
       
@@ -135,19 +144,21 @@ rel="stylesheet"
 
 
       <div class="row">
-          <div class="column">
+          <div class="column col-lg-12 col-md-12 col-sm-12" >
               <div class="contactUs">
                 <img src="./images/dilanis1.jpg" alt="">
                 <div class="form">
                     <h4>CONTACT US</h4>
-                    <form action="#">
+                    <form action="#" id="form">
   
                         <input class="transparent-input" type="text" id="fname" name="fname" size="30" placeholder="Name...">
                        
-                        <input class="transparent-input"   type="text" id="lname" name="lname" size="30" placeholder="Email..."><br>
+                        <input class="transparent-input"   type="email" id="email" name="email" size="30" placeholder="Email..."><br>
                         <textarea class="transparent-input"  id="textarea" name="textarea" rows="6" cols="60">
                       
                         </textarea>
+
+                        <button type="submit" id="submit">Submit</button>
                       
                       </form>
                 </div>
