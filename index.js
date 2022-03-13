@@ -1,22 +1,3 @@
-// let form = document.getElementById("form");
-// let userName = document.getElementById("fname");
-// let userEmail = document.getElementById("email");
-// let myText = document.getElementById("textarea");
-
-// form.addEventListener("submit", (e)=>{
-//   e.preventDefault();
-
-
-//   if(userName.value ===""){
-//     alert("Please Enter a Valid name")
-    
-//   } else{
-//     alert(`${userName}, we have received your message. Thank you fro reaching out to us.`)
-//   }
-  
-  
-// })
-
 // The portfolio
 $(document).ready(function(){
   $("#image1").hover(function(){

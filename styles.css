@@ -265,3 +265,76 @@ button, #reset{
   border: 4px solid white;
   text-align: center;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .topImage h1 p{
+    font-size: small;
+    text-align: left;
+  }
+  .what-we-do{
+    margin-top: 15%;
+  }
+  #portfolio{
+    height: 400px;
+  }
+  #portfolio img{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+    align-items: center;
+    
+  }
+  #portfolio2 img{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+  }
+  .firstText, .secondText, .thirdText, .fourthText, .fifthText, .sixthText, .seventhText, .eightText{
+    display: none; 
+    height: 50px;
+    width: 70px;
+    margin-left: 5%;
+    margin-top: -70%;
+    z-index: 2;
+    border: 4px solid white;
+    text-align: center;
+  }
+  .contactUs{
+    margin-left: -20%;
+    
+  }
+  .contactUs img{
+    margin-top: 35%;
+    height: 500px;
+    width: 100%;
+  }
+  #form{
+    
+    margin-top: -60%;
+    margin-left: 20%;
+    width: 200px;
+    width: 100%;
+    display: inline;
+
+  }
+  #fname{
+    margin-left: -10%;
+  }
+  #email{
+    margin-left: -10%;
+  }
+  #textarea{
+    margin-left: -15%;
+    width: 200px;
+  }
+ footer{
+   margin-top: 25%;
+ }
+
+
+}
