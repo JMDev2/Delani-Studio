@@ -32,7 +32,7 @@ https://github.com/JOSEPHMAINA1995/Delani-Studio.git
 1. Javasccript
 1. Jquery
 ### Live Site
-View [Live] 
+View [Live] https://josephmaina1995.github.io/Delani-Studio/
 ###
 Email: mainajoseph964@gmail.com
 Phone: +254 700809279
