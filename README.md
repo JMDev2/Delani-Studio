@@ -37,4 +37,4 @@ View [Live] https://josephmaina1995.github.io/Delani-Studio/
 Email: mainajoseph964@gmail.com
 Phone: +254 700809279
 ### Licence
-This project is under the  [MIT] (license) license
+This project is under the  [MIT](license)license
