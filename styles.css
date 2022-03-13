@@ -24,7 +24,7 @@
     width: 30px;
     height: 30px;
   }
-  #btn{
+  /* #btn{
       background-color: white;
       width: 30px;
       height: 20px;
@@ -35,7 +35,7 @@
 
       background-color: transparent;border: 1px solid white;
       
-  }
+  } */
 
   /* <!-- The About us Section */
 .aboutUs{
@@ -176,7 +176,7 @@ input[type=text],input[type=email]{
   height: 30px;
   width: 25px;
 }
-button{
+button, #reset{
   background-color: blue;
   position: relative;
   top: 30px;
@@ -186,7 +186,7 @@ button{
 }
 #textarea{
   position: relative;
-  left: 10%;
+  left: 20%;
 }
 
 /*What we do*/

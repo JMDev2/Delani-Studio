@@ -19,15 +19,15 @@ form.addEventListener("submit", (e)=>{
 $(document).ready(function(){
   $("#image1").hover(function(){
     $(".firstText").toggle();
-    $("#image1").css("filter", "brightness(60%)");    
+    $("#image1").css("filter", "brightness(40%)");    
 })
  $("#image2").hover(function(){
     $(".secondText").toggle();
-    $("#image2").css("filter", "brightness(60%)");    
+    $("#image2").css("filter", "brightness(40%)");    
 })
   $("#image3").hover(function(){
     $(".thirdText").toggle();
-    $("#image3").css("filter", "brightness(60%)");    
+    $("#image3").css("filter", "brightness(40%)");    
 })
   $("#image4").hover(function(){
     $(".fourthText").toggle();
@@ -101,4 +101,7 @@ $(document).ready(function(){
 
    alert(`${userName}, we have received your message. Thank you fro reaching out to us.`)
 })
+$(document).ready(function(){
+  $(":reset").css("background-color", "red");
+});
 
