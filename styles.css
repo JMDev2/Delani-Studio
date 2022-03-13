@@ -77,7 +77,7 @@
   .heading{
     text-align: center;
     padding: 32px;
-    margin-top: -5%;
+    margin-top: -1%;
     margin-left: -4%;
   }
 
@@ -180,7 +180,7 @@ button, #reset{
   background-color: blue;
   position: relative;
   top: 30px;
-  left: -19%;
+  left: -22%;
   width: 20%;
   
 }
@@ -197,7 +197,7 @@ button, #reset{
 
 }
 .what-we-do .headings{
-  padding-bottom: 38px;
+  padding-bottom: 30px;
 }
 #mouse-click{
   padding-top: 22px;
