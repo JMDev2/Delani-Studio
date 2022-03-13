@@ -1,19 +1,21 @@
-let form = document.getElementById("form");
-let userName = document.getElementById("fname");
-let userEmail = document.getElementById("email");
-let myText = document.getElementById("textarea");
+// let form = document.getElementById("form");
+// let userName = document.getElementById("fname");
+// let userEmail = document.getElementById("email");
+// let myText = document.getElementById("textarea");
 
-form.addEventListener("submit", (e)=>{
-  e.preventDefault();
+// form.addEventListener("submit", (e)=>{
+//   e.preventDefault();
 
 
-  if(userName.value ===""){
-    alert("Please Enter a Valid name")
-    return false;
-  }
+//   if(userName.value ===""){
+//     alert("Please Enter a Valid name")
+    
+//   } else{
+//     alert(`${userName}, we have received your message. Thank you fro reaching out to us.`)
+//   }
   
   
-})
+// })
 
 // The portfolio
 $(document).ready(function(){
@@ -93,14 +95,22 @@ $(document).ready(function(){
   });
 
   // form
-  $("form#form").submit((e)=>{
-    e.preventDefault();
-    let userName = $("input#fname").val();
-    let userEmail = $("input#email").val();
-    let userText = $("input#textarea").val();
+ 
 
-   alert(`${userName}, we have received your message. Thank you fro reaching out to us.`)
-})
+  $('button#submit').click(function(){
+    let userName=$('input#fname').val()
+    
+    
+    if(userName===""){
+        alert("please fill the required fields")
+    }
+    else {
+        alert(`${userName}, we have received your message.Thank you for reaching out`)
+
+    } 
+   
+});
+
 $(document).ready(function(){
   $(":reset").css("background-color", "red");
 });
