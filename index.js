@@ -1,4 +1,4 @@
-
+// The portfolio
 $(document).ready(function(){
   $("#image1").hover(function(){
     $(".firstText").toggle();
