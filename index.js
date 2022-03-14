@@ -93,6 +93,6 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $(":reset").css("background-color", "red");
+  $(":reset").css("background-color", "wheat", "font-size", "10px");
 });
 

@@ -35,6 +35,10 @@
     
 }
 
+ ::placeholder {
+  color: white;
+}
+
 .services img {
     width: 100%;
     height: 300px;
